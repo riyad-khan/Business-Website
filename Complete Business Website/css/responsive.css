@@ -1,0 +1,225 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1650px !important;
+    }
+}
+@media (max-width: 1024px) {
+    .logo a {
+        display: none;
+    }
+    .pro-box .img {
+        width: 80%;
+    }
+    .pro-box,
+    .cata-box,
+    .riview-items,
+    .blog-items {
+        width: auto;
+    }
+}
+@media (max-width: 991px) {
+    header,
+    header.sticky {
+        padding: 20px 20px;
+    }
+    header .navigation {
+        display: none;
+    }
+    header .menuToggle {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(../img/menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    header .navigation.active {
+        width: 30vw;
+        height: calc(100% - 68px);
+        position: fixed;
+        top: 68px;
+        left: auto;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: transparent;
+    }
+
+    .menuToggle.active {
+        background: url(../img/close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    header.sticky .menuToggle {
+        filter: invert(1);
+    }
+    header .navigation li,
+    header.sticky .navigation li {
+        list-style-type: none;
+        margin-left: 0;
+    }
+    header .navigation li a,
+    header.sticky .navigation li a {
+        color: #fb40db;
+        font-size: 35px;
+    }
+    header .navigation li a:hover,
+    header.sticky .navigation li a:hover {
+        font-family: cursive;
+    }
+    .banner .content h2 {
+        font-size: 4em;
+    }
+    .banner .content p {
+        font-size: 1em;
+        padding: 0 10px;
+    }
+    .about {
+        margin: 40px 10px 10px 10px;
+        overflow: hidden;
+    }
+    .titleTxt {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .page p {
+        left: 46%;
+    }
+}
+@media (max-width: 850px) {
+    nav {
+        display: none;
+    }
+    .basket {
+        width: 25rem;
+    }
+    .basket-content {
+        padding: 0;
+    }
+    .img-basket img {
+        width: 50px;
+        height: 50px;
+    }
+    .basket-footer h3 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 425px) {
+    header {
+        height: 95px;
+    }
+
+    .logo a {
+        display: none;
+    }
+    .search-box {
+        width: 90%;
+    }
+    .basket {
+        width: 24.5rem;
+    }
+    .banner {
+        margin: 0;
+        padding-top: 65px;
+    }
+    .banner .content h2 {
+        font-size: 2em;
+    }
+    .banner .content p {
+        font-size: 0.875em;
+    }
+    .banner .b_cont h1 {
+        font-size: 2.3em;
+    }
+
+    .menu .content {
+        margin-top: 0;
+    }
+    .title p {
+        text-align: center;
+        font-size: 0.875em;
+    }
+    .box .text h3 {
+        text-align: center;
+        font-size: 1.4em;
+    }
+    .page {
+        display: none;
+    }
+    .features {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .navigation.active {
+        position: fixed;
+        background: #6045cc;
+        height: 100vh;
+        width: 100%;
+    }
+    nav {
+        display: none;
+    }
+    #menu-btn {
+        display: flex;
+    }
+    .pro-box {
+        height: 480px;
+        width: 337px;
+        margin-left: 25px;
+    }
+    .blog-items buttton {
+        width: 148px;
+        /* margin-left: 27%; */
+    }
+}
+@media (max-width: 320px) {
+    headder {
+        padding: 0;
+    }
+}
+@media (max-width: 425px) {
+    header {
+        padding: 5px 0 0;
+    }
+    .title-text {
+        font-size: 1.8rem;
+    }
+    .basket,
+    .form {
+        width: 22rem;
+    }
+    .foot h3 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 375px) {
+    .pro-box {
+        margin-left: 0px;
+        height: 465px;
+    }
+}
+@media (max-width: 320px) {
+    .icon {
+        padding: 0px 15px;
+        margin-right: 0;
+    }
+    .menu-bar {
+        width: 18rem;
+    }
+    .basket.active {
+        right: 10px;
+    }
+    .basket,
+    .form {
+        width: 19rem;
+    }
+}

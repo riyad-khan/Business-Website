@@ -1,0 +1,918 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Your Foods | Choose Your Fabourite Fruits</title>
+    <link rel="icon" href="img/logo/Programming-Hero-app.png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="https://www.thorn.org/wp-content/uploads/2017/10/favicon-new.png">
+    <!-- Import Font Familly -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;0,800;0,900;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font Aewsome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+
+    <!-- link all style Sheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all-fonts.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Owl carousel css link -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Basic stylesheet -->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+    <!-- Custom Css Link -->
+
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./css/grid-accordion.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/examples.css" media="screen" />
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.gridAccordion.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+<body>
+    <!--   HEADER SECTION START -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-shopping-basket">
+                    <a href="#home"></a>
+                </i>
+                <a href="#">H<span>E</span>RO<span>.</span></a>
+            </div>
+            <nav>
+                <a href="#home" class="nav">home</a>
+                <a href="#features" class="nav">feature</a>
+                <a href="#products" class="nav">products</a>
+                <a href="#categories" class="nav">categories</a>
+                <a href="#review" class="nav">review</a>
+                <a href="#blogs" class="nav">blogs</a>
+                <a href="#contact" class="nav">Contact</a>
+            </nav>
+            <div class="right_area d-flex">
+                <div class="icon" id="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="icon" id="search-btn">
+                    <div class="fas fa-search"></div>
+                </div>
+                <div class="icon" id="basket-btn">
+                    <i class="fas fa-cart-plus"></i>
+                </div>
+                <div class="icon" id="login-btn">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+            <!-- Add Menu Bar -->
+            <div class="menu-bar">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#products">Products</a>
+                <a href="#categories">Categories</a>
+                <a href="#review">Review</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <!-- Add Search Box -->
+            <form action="#" class="search-box">
+                <input type="search" id="search-box" placeholder="search here...">
+                <i class="fas fa-search"></i>
+            </form>
+            <!-- Add Basket Div -->
+            <div class="basket">
+                <div class="basket-content">
+                    <div class="img-basket">
+                        <img src="./img/onion-png-file.png" alt="onion" class="basket-img">
+                    </div>
+                    <div class="info-div">
+
+                        <h4>Onion</h4>
+                        <p>$4.99 <span>Qty:1</span></p>
+
+                    </div>
+                    <div class="delete">
+                        <i class="fas fa-trash delete-icon"></i>
+                    </div>
+                </div>
+                <div class="basket-content">
+                    <div class="img-basket">
+                        <img src="./img/chicken.png" alt="onion" class="basket-img">
+                    </div>
+                    <div class="info-div">
+
+                        <h4>Chicken</h4>
+                        <p>$4.99 <span>Qty:1</span></p>
+
+                    </div>
+                    <div class="delete">
+                        <i class="fas fa-trash delete-icon"></i>
+                    </div>
+                </div>
+                <div class="basket-content">
+                    <div class="img-basket">
+                        <img src="./img/22-watermelon.png" alt="onion" class="basket-img">
+                    </div>
+                    <div class="info-div">
+
+                        <h4>Watermelon</h4>
+                        <p>$4.99 <span>Qty:1</span></p>
+
+                    </div>
+                    <div class="delete">
+                        <i class="fas fa-trash delete-icon"></i>
+                    </div>
+                </div>
+                <div class="basket-footer">
+                    <div class="total">
+                        <h3>Total: $19.69</h3>
+                    </div>
+                    <div class="cheackout">
+                        <button>Checkout</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Login Form -->
+            <form action="#" method="get" class="form">
+                <h3>LOGIN NOW</h3>
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+                <p>Don't Have An Account!<span>Create Now!</span></p>
+                <button>Login Now</button>
+            </form>
+        </div>
+        <div class="progress-bar"></div>
+    </header>
+    <!--   HEADER SECTION END -->
+
+    <!-- BANNER SECTION START -->
+    <section class="banner" id="home">
+        <div class="b_cont">
+            <h1>Fresh And <span>Organic</span> Products For You</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, porro illum? Totam accusamus id<br>
+                voluptatibus.This ia a parfect WebFlow for your business.</p>
+            <p><a href="#" class="shop">Shop Now</a></p>
+        </div>
+
+    </section>
+    <!-- BANNER SECTION END -->
+
+
+    <!-- CAROUSEL FEATURES SECTION START -->
+    <section class="features" id="features">
+        <!-- Slideshow container -->
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center title-text">Our <span>Features</span></h3>
+            </div>
+            <div class="owl-carousel h-auto w-100">
+                <div class="img-carousel">
+                    <img src="./img/menu1.jpg" alt="">
+                    <div class="img_info">
+                        <h4>Free Delivery</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, velit?<br>Lorem ipsum
+                            dolor
+                            sit amet.</p>
+                        <p><a href="#" class="more">Read More</a></p>
+                    </div>
+                </div>
+                <div class="img-carousel">
+                    <img src="./img/menu2.jpg" alt="">
+                    <div class="img_info">
+                        <h4 class="text-center">Free Delivery</h4>
+                        <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit,
+                            velit?<br>Lorem ipsum dolor sit amet.</p>
+                        <p class="text-center"><a href="#" class="more">Read More</a></p>
+                    </div>
+                </div>
+                <div class="img-carousel">
+                    <img src="./img/menu3.jpg" alt="">
+                    <div class="img_info">
+                        <h4>Free Delivery</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, velit?<br>Lorem ipsum
+                            dolor
+                            sit amet.</p>
+                        <p><a href="#" class="more">Read More</a></p>
+                    </div>
+                </div>
+                <div class="img-carousel">
+                    <img src="./img/menu4.jpg" alt="">
+                    <div class="img_info">
+                        <h4>Free Delivery</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, velit?<br>Lorem ipsum
+                            dolor
+                            sit amet.</p>
+                        <p><a href="#" class="more">Read More</a></p>
+                    </div>
+                </div>
+                <div class="img-carousel">
+                    <img src="./img/menu5.jpg" alt="">
+                    <div class="img_info">
+                        <h4>Free Delivery</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, velit?<br>Lorem ipsum
+                            dolor
+                            sit amet.</p>
+                        <p><a href="#" class="more">Read More</a></p>
+                    </div>
+                </div>
+                <div class="img-carousel">
+                    <img src="./img/menu6.jpg" alt="">
+                    <div class="img_info">
+                        <h4>Free Delivery</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, velit?<br>Lorem ipsum
+                            dolor
+                            sit amet.</p>
+                        <p><a href="#" class="more">Read More</a></p>
+                    </div>
+                </div>
+                <div class="img-carousel">
+                    <img src="./img/menu7.jpg" alt="">
+                    <div class="img_info">
+                        <h4>Free Delivery</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, velit?<br>Lorem ipsum
+                            dolor
+                            sit amet.</p>
+                        <p><a href="#" class="more">Read More</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- CAROUSEL FEATURES SECTION END -->
+
+    <!-- PRODUCTS SECTION START -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-title pro-title">
+                <h3 class="text-center title-text">Our <span>Products</span></h3>
+            </div>
+            <div class="owl-carousel owl-theme products-carousel">
+                <div class="pro-box">
+                    <img src="./img/orange.png" alt="">
+
+                    <h4>Fresh Orange</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro-box">
+                    <img src="./img/brinjal.png" alt="">
+
+                    <h4>Fresh Brinjal</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro-box">
+                    <img src="./img/avocado.png" alt="">
+
+                    <h4>Fresh Avocado</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro-box">
+                    <img src="./img/fruit.png" alt="">
+
+                    <h4>Fresh Fruits</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro-box">
+                    <img src="./img/papaya.png" alt="">
+
+                    <h4>Fresh Papay</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro-box">
+                    <img src="./img/onion-png-file.png" alt="">
+
+                    <h4>Fresh Onion</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro-box">
+                    <img src="./img/tomatoes.png" alt="">
+
+                    <h4>Fresh Tomatoes</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro-box">
+                    <img src="./img/carrot.png" alt="">
+
+                    <h4>Fresh Carrot</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+            <div class="owl-carousel products-carouse owl-theme">
+                <div class="pro-box">
+                    <img src="./img/fried-egg.png" alt="">
+
+                    <h4>Fresh Fried-Egg</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro-box">
+                    <img src="./img/chicken.png" alt="">
+
+                    <h4>Fresh Chicken</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro-box">
+                    <img src="./img/mixed-fish.jpg" alt="">
+
+                    <h4>Fresh Mixed-Fishy</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro-box">
+                    <img src="./img/chicken-fry.png" alt="">
+
+                    <h4>Fresh Chicken Fry</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro-box">
+                    <img src="./img/menu8.jpg" alt="">
+
+                    <h4>Fresh Muri Gonda</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro-box">
+                    <img src="./img/menu3.jpg" alt="">
+
+                    <h4>Fresh Chicken Fry</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="pro-box">
+                    <img src="./img/menu3.jpg" alt="">
+
+                    <h4>Fresh Chicken Fry</h4>
+                    <p>$4.99/- - $10.99</p>
+                    <div class="star">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button>Add To Cart</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- PRODUCTS SECTION END -->
+
+    <!-- CATAGORIES SECTION START -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center title-text">Our <span>Categories</span></h3>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="cata-box">
+                    <img src="./img/chicken-fry.png" alt="">
+                    <h3>Fresh Chicken Fry</h3>
+                    <p>Upto 45% Off</p>
+                    <button>Read More</button>
+                </div>
+                <div class="cata-box">
+                    <img src="./img/fish-chicken.jpg" alt="">
+                    <h3>Fresh Fish Fry</h3>
+                    <p>Upto 45% Off</p>
+                    <button>Read More</button>
+                </div>
+                <div class="cata-box">
+                    <img src="./img/tomatoes.png" alt="">
+                    <h3>Fresh Fruits</h3>
+                    <p>Upto 45% Off</p>
+                    <button>Read More</button>
+                </div>
+                <div class="cata-box">
+                    <img src="./img/fruit.png" alt="">
+                    <h3>Organic Vegitables</h3>
+                    <p>Upto 45% Off</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- CATAGORIES SECTION START -->
+
+    <!-- RIVIEW SECTION START -->
+    <section class="review" id="review">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center title-text">Customer <span>Review</span></h3>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="riview-items">
+                    <div class="img-box">
+                        <img src="./img/test1.jpg" alt="customer">
+                    </div>
+
+
+                    <p>Lorem ipsum dolor, sit amet consectetur elit. Exercitationem, iste. Rem non commodi
+                        delectus quaerat, nam velit quis! Quos cumque expedita dolore optio officia.</p>
+
+
+                    <h3>Mr. Rafiq</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+                <div class="riview-items">
+                    <div class="img-box">
+                        <img src="./img/test2.jpg" alt="">
+                    </div>
+
+
+
+                    <p>Lorem ipsum dolor, sit amet consectetur elit. Exercitationem, iste. Rem non commodi
+                        delectus quaerat, nam velit quis! Quos cumque expedita dolore optio officia.</p>
+
+                    <h3>Rabby Khan</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+                <div class="riview-items">
+                    <div class="img-box">
+                        <img src="./img/test3.jpg" alt="">
+                    </div>
+
+
+
+                    <p>Lorem ipsum dolor, sit amet consectetur elit. Exercitationem, iste. Rem non commodi
+                        delectus quaerat, nam velit quis! Quos cumque expedita dolore optio officia.</p>
+
+                    <h3>Alom Aqbar</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+                <div class="riview-items">
+                    <div class="img-box">
+                        <img src="./img/test4.jpg" alt="">
+                    </div>
+
+
+
+                    <p>Lorem ipsum dolor, sit amet consectetur elit. Exercitationem, iste. Rem non commodi
+                        delectus quaerat, nam velit quis! Quos cumque expedita dolore optio officia.</p>
+
+                    <h3>Lotif Siddiqi</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+                <div class="riview-items">
+                    <div class="img-box">
+                        <img src="./img/test5.jpg" alt="">
+                    </div>
+
+
+
+                    <p>Lorem ipsum dolor, sit amet consectetur elit. Exercitationem, iste. Rem non commodi
+                        delectus quaerat, nam velit quis! Quos cumque expedita dolore optio officia.</p>
+
+                    <h3>Hasib Ahmed</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- RIVIEW SECTION END -->
+
+    <!--  BLOG SECTION START -->
+    <section class="blogs" id="blogs">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center title-text text-white">Our <span>Blogs</span></h3>
+            </div>
+            <div class="owl-carousel owl-theme products-carousel">
+                <div class="blog-items">
+                    <img src="./img/fruit.png" alt="fruits">
+                    <div class="bottom">
+                        <div class="left">
+                            <i class="fas fa-user"></i>
+                            <p>By Admin</p>
+                        </div>
+                        <div class="right">
+                            <i class="fas fa-calendar"></i>
+                            <p>16-Oct-21</p>
+                        </div>
+
+                    </div>
+                    <h3>Fresh And Organic<br> Vegitables And Fruits</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Consequatur, quia.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="blog-items">
+                    <img src="./img/fruit.png" alt="fruits">
+                    <div class="bottom">
+                        <div class="left">
+                            <i class="fas fa-user"></i>
+                            <p>By Admin</p>
+                        </div>
+                        <div class="right">
+                            <i class="fas fa-calendar"></i>
+                            <p>16-Oct-21</p>
+                        </div>
+
+                    </div>
+                    <h3>Fresh And Organic<br> Vegitables And Fruits</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Consequatur, quia.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="blog-items">
+                    <img src="./img/fruit.png" alt="fruits">
+                    <div class="bottom">
+                        <div class="left">
+                            <i class="fas fa-user"></i>
+                            <p>By Admin</p>
+                        </div>
+                        <div class="right">
+                            <i class="fas fa-calendar"></i>
+                            <p>16-Oct-21</p>
+                        </div>
+
+                    </div>
+                    <h3>Fresh And Organic<br> Vegitables And Fruits</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Consequatur, quia.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="blog-items">
+                    <img src="./img/fruit.png" alt="fruits">
+                    <div class="bottom">
+                        <div class="left">
+                            <i class="fas fa-user"></i>
+                            <p>By Admin</p>
+                        </div>
+                        <div class="right">
+                            <i class="fas fa-calendar"></i>
+                            <p>16-Oct-21</p>
+                        </div>
+
+                    </div>
+                    <h3>Fresh And Organic<br> Vegitables And Fruits</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Consequatur, quia.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  BLOG SECTION END -->
+
+    <!-- RECENT ACTIVITIES SECTION START -->
+    <section class="recent">
+
+        <div class="section-title">
+            <h3 class="text-center title-text">Recent <span>Activities</span></h3>
+        </div>
+        <div id="example" class="grid-accordion">
+            <div class="ga-panels">
+                <div class="ga-panel">
+                    <img class="ga-background" src="./img/menu1.jpg" />
+                </div>
+                <div class="ga-panel">
+                    <img class="ga-background" src="./img/menu2.jpg" />
+                </div>
+                <div class="ga-panel">
+                    <img class="ga-background" src="./img/menu3.jpg" />
+                </div>
+                <div class="ga-panel">
+                    <img class="ga-background" src="./img/menu4.jpg" />
+                </div>
+                <div class="ga-panel">
+                    <img class="ga-background" src="./img/menu4.jpg" />
+                </div>
+                <div class="ga-panel">
+                    <img class="ga-background" src="./img/menu5.jpg" />
+                </div>
+                <div class="ga-panel">
+                    <img class="ga-background" src="./img/menu6.jpg" />
+                </div>
+                <div class="ga-panel">
+                    <img class="ga-background" src="./img/menu7.jpg" />
+                </div>
+                <div class="ga-panel">
+                    <img class="ga-background" src="./img/menu8.jpg" />
+                </div>
+                <div class="ga-panel">
+                    <img class="ga-background" src="./img/menu5.jpg" />
+                </div>
+                <div class="ga-panel">
+                    <img class="ga-background" src="./img/menu6.jpg" />
+                </div>
+                <div class="ga-panel">
+                    <img class="ga-background" src="./img/menu2.jpg" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- RECENT ACTIVITIES SECTION START -->
+
+    <script>
+        $('#example').gridAccordion({
+            // options here
+        });
+    </script>
+
+
+    <!-- FOOTER SECTION START -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+
+                    <div class="logo">
+                        <a href="#">H<span>E</span>RO<span>.</span></a>
+                        <i class="fas fa-shopping-basket"></i>
+
+                    </div>
+                    <div class="footer-text">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora cum nisi voluptatum
+                            suscipit dolore cupiditate inventore totam alias sit unde?</p>
+                    </div>
+                    <div class="social-link d-flex">
+                        <div class="social-items">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-items">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-items">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-items">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="c-info">
+                        <a href="#">Contact Info</a>
+                    </div>
+                    <div class="c-text">
+                        <div class="text-list d-flex justify-content-start align-items-center">
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <p class="pl-2 mb-0">+880-1783-30-93-71</p>
+                        </div>
+                        <div class="text-list d-flex justify-content-start align-items-center">
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <p class="pl-2 mb-0">+880-1834-52-10-13</p>
+                        </div>
+                        <div class="text-list d-flex justify-content-start align-items-center">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <p class="pl-2 mb-0">mdrdkhan.10@gmail.com</p>
+                        </div>
+                        <div class="text-list d-flex justify-content-start align-items-center">
+                            <i class="fas fa-city" aria-hidden="true"></i>
+                            <p class="pl-2 mb-0">Barisal, Bangladesh - 8200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="c-info">
+                        <a href="#">Contact Info</a>
+                    </div>
+                    <div class="c-text">
+                        <div class="text-list d-flex justify-content-start align-items-center">
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                            <a href="#home" class="pl-2 mb-0">Home</a>
+                        </div>
+                        <div class="text-list d-flex justify-content-start align-items-center">
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                            <a href="#features" class="pl-2 mb-0">Features</a>
+                        </div>
+                        <div class="text-list d-flex justify-content-start align-items-center">
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                            <a href="#products" class="pl-2 mb-0">Products</a>
+                        </div>
+                        <div class="text-list d-flex justify-content-start align-items-center">
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                            <a href="#categories" class="pl-2 mb-0">Categories</a>
+                        </div>
+                        <div class="text-list d-flex justify-content-start align-items-center">
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                            <a href="#review" class="pl-2 mb-0">Review</a>
+                        </div>
+                        <div class="text-list d-flex justify-content-start align-items-center">
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                            <a href="#blogs" class="pl-2 mb-0">Blogs</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="c-info">
+                        <a href="#">Newsletter</a>
+                    </div>
+                    <div class="c-text d-flex justify-content-start flex-column">
+                        <p>Subscrive For Latest Updates</p>
+                        <input type="email" placeholder="your email">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                    <div class="pay-card d-flex">
+                        <img src="./img/IBBL-Platinum-Debit-Card.jpg" alt="">
+                        <img src="./img/sjibgcc.png" alt="">
+                        <img src="./img/pay-pal card.png" alt="">
+                        <img src="./img/IBBL-Platinum-Debit-Card.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="foot">
+            <h3 class="text-center p-2">Created By <span>Md. Riad Khan</span> | All Right Reserved</h3>
+        </div>
+    </footer>
+
+    <!-- FOOTER SECTION END -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <!-- You can use latest version of jQuery  -->
+    <script src="js/jquery.min.js"></script>
+
+
+    <!-- Include js plugin -->
+    <!-- <script src="assets/owl-carousel/owl.carousel.js"></script> -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
